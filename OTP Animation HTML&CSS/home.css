@@ -1,0 +1,26 @@
+.otp-field{
+    display: flex;
+}
+.otp-field input{
+    width:37px;
+font-size:18px;
+padding:10px;
+text-align:center;
+border-radius:5px;
+margin:4px;
+border:2px solid rgb(255,255,255, .2);
+background:rgb(100,100,100, .2);
+color:#fff;
+outline:none;
+transition:all 0.1s;
+}
+.otp-field input:focus{
+     border:2px solid #a527ff;
+     box-shadow:0 0 2px 2px #a527ff6a;
+}
+.disabled{
+     opacity:0.5;
+}
+.space{
+    margin-right:1rem !important;
+}
